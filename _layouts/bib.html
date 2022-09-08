@@ -37,7 +37,7 @@
                 {%- endif -%}
               {%- endfor -%}
             {%- endif -%}
-            
+
             {%- if forloop.length == 1 -%}
               {%- if author_is_self %}
                 <b>{{author.last}}, {{author.first}}</b>
@@ -90,6 +90,7 @@
           </div>
         {%- endif %}
         
+
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
@@ -103,6 +104,12 @@
           {%- endif %}
           {%- if entry.acl %}
             <a href="{{ entry.acl }}" class="btn btn-sm z-depth-0" role="button">ACL</a>
+          {%- endif %}
+          {%- if entry.ieee %}
+            <a href="{{ entry.ieee }}" class="btn btn-sm z-depth-0" role="button">IEEE</a>
+          {%- endif %}
+          {%- if entry.acm %}
+            <a href="{{ entry.acm }}" class="btn btn-sm z-depth-0" role="button">ACM</a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
