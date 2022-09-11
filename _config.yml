@@ -60,17 +60,27 @@ gitlab_username: kargaranamir # your GitLab user name
 twitter_username: amircra # your Twitter handle
 linkedin_username: amirkargaran # your LinkedIn user name
 scholar_userid: 2idwpjcAAAAJ # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-6253-1315 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Amir_Hossein_Kargaran # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
+dblp_url: https://dblp.uni-trier.de/pers/hd/k/Kargaran:Amir_Hossein # your DBLP profile url
+stackoverflow_id: 16478538 # your stackoverflow id
+myanimelist_id: kargaranamir
+kaggle_id: kargaranamir #your kaggle id
+lastfm_id: kargaranamir
+spotify_id: 21wduv4jr5477ajojgxej4cha?si=L3iavpzJQleF_ih-tnIxmA # your spotify id
+letterboxd_id: kargaranamir # your letterboxd id
+pinterest_id: kargaranamir # your pinterest id
+unsplash_id: kargaranamir # your unsplash id
+instagram_id: kargaranamir # your instagram id
+facebook_id: kargaranamir # your facebook id
+arxiv_url: https://arxiv.org/search/?searchtype=author&query=Kargaran%2C+A+H # your arxiv search url
 
 #contact_note:
 
