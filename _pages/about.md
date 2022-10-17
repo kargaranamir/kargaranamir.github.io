@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=http://ce.sharif.edu/>CE Dept. at Sharif Univ. of Tech.</a>, Tehran, Iran.
+subtitle: <a href=https://schuetze.cis.lmu.de/>Centrum für Informations- und Sprachverarbeitung</a>, Oettingenstraße 67, 1. OG, Flügel C, 80538 München, Germany
 
 profile:
   align: right
