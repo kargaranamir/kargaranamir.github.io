@@ -97,10 +97,10 @@
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
           {%- if entry.best_student_paper %}
-            <a href="{{ entry.best_student_paper }}" class="btn btn-sm z-depth-0" role="button">Best Studet Paper</a>
+            <a style="color:red" href="{{ entry.best_student_paper }}" class="btn btn-sm z-depth-0" role="button">Best Student Paper</a>
           {%- endif %}
           {%- if entry.best_paper %}
-            <a href="{{ entry.best_paper }}" class="btn btn-sm z-depth-0" role="button">Best Paper</a>
+            <a style="color:red" href="{{ entry.best_paper }}" class="btn btn-sm z-depth-0" role="button">Best Paper</a>
           {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
