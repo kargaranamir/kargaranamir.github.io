@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-04-13
+date: 2022-11-01
 inline: true
 ---
 
-I Joined [CIS LMU](https://cis.lmu.de/), Munich, Germany 🚴
+I joined [CIS LMU](https://cis.lmu.de/), München, Germany 🚴

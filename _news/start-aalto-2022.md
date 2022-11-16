@@ -4,4 +4,4 @@ date: 2022-06-01
 inline: true
 ---
 
-I joined Aalto User Interface Research Group for Summer 2022, Aalto University, Finland 🚴
+I joined Aalto User Interface Research Group for summer 2022, Aalto University, Finland 🚴
