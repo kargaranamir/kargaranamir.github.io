@@ -1,6 +1,6 @@
 # Personal Webpage with al-folio Theme
 
-The repository contains the personal website for [Amir Hossein Kargaran](kargaranamir.github.io/).
+The repository contains the personal website for [Amir Hossein Kargaran](https://kargaranamir.github.io/).
 
 ## al-folio
 
