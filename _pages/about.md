@@ -19,4 +19,4 @@ Hi there! I’m Amir 👋 I'm a first year Ph.D. student and Research Associate 
 
 Before starting my Ph.D., I completed my M.Sc. degree in Computer Engineering at [Sharif University of Technology](https://en.sharif.edu/), 2022. I got two B.Sc. degrees in Electrical Engineering and Computer Engineering from [Isfahan University of Technology](http://english.iut.ac.ir/), 2020.
 
-As a researcher, I am focusing my research on NLProc. Check out our new work [Hengam](https://aclanthology.org/2022.aacl-main.74/) on temporal tagging. I am also an open-source contributor to [AIM]([AIM](https://github.com/aalto-ui/aim), a service for evaluating GUIs.
+As a researcher, I am focusing my research on NLProc. Check out our new work [**Hengam**](https://aclanthology.org/2022.aacl-main.74/) on temporal tagging. I am also an open-source contributor to [**AIM**](https://github.com/aalto-ui/aim), a service for evaluating GUIs.
