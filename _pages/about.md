@@ -6,12 +6,12 @@ subtitle: <a href=https://cis.lmu.de/>CIS</a>, Oettingenstraße 67, 1. OG, Flüg
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   address:
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-abs_social: true  # includes abstract social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+abs_social: false  # includes abstract social icons at the bottom of the page
 ---
 
 
