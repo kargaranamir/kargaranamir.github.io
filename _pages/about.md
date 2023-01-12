@@ -6,7 +6,7 @@ subtitle: <a href=https://cis.lmu.de/>CIS</a>, Oettingenstraße 67, 1. OG, Flüg
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   address:
 
 news: true  # includes a list of news items
