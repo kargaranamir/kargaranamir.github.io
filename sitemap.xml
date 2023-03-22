@@ -9,17 +9,47 @@
 
 <url>
   <loc>https://kargaranamir.github.io/</loc>
-  <lastmod>2022-09-08T15:27:45+00:00</lastmod>
+  <lastmod>2023-03-22T15:37:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://kargaranamir.github.io/blog/</loc>
-  <lastmod>2022-09-08T15:27:45+00:00</lastmod>
+  <lastmod>2023-03-22T15:37:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://kargaranamir.github.io/publications/</loc>
-  <lastmod>2022-09-08T15:27:45+00:00</lastmod>
+  <lastmod>2023-03-22T15:37:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kargaranamir.github.io/social/</loc>
+  <lastmod>2023-03-22T15:37:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kargaranamir.github.io/MenuCraft/</loc>
+  <lastmod>2023-03-09T14:37:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kargaranamir.github.io/assets/pdf/paper-wideadgraph-websci-2021.pdf</loc>
+  <lastmod>2023-03-22T15:37:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kargaranamir.github.io/assets/pdf/paper-detecting-arxiv-2020.pdf</loc>
+  <lastmod>2023-03-22T15:37:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kargaranamir.github.io/assets/pdf/paper-alarm-ifac-2021.pdf</loc>
+  <lastmod>2023-03-22T15:37:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kargaranamir.github.io/assets/pdf/paper-alarm-arxiv-2020.pdf</loc>
+  <lastmod>2023-03-22T15:37:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
