@@ -1,30 +1,32 @@
-@inproceedings{imani-2023-glot,
+@inproceedings{imanigooghari-2023-glot,
   title        = {Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages},
-  author       = {Imani, Ayyoob and Lin, Peiqin and Kargaran, Amir Hossein and Severini, Silvia and Sabet, Masoud Jalili and Kassner, Nora and Ma, Chunlan and Schmid, Helmut and Martins, André and Yvon, François and  Sch{\"u}tze, Hinrich"},
+  author       = {ImaniGooghari, Ayyoob and Lin, Peiqin and Kargaran, Amir Hossein and Severini, Silvia and Sabet, Masoud Jalili and Kassner, Nora and Ma, Chunlan and Schmid, Helmut and Martins, André and Yvon, François and Sch{\"u}tze, Hinrich"},
   year         = 2023,
   booktitle    = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
   publisher    = {Association for Computational Linguistics},
   abbr         = {ACL 2023},
+  acl          = {https://aclanthology.org/2023.acl-long.61},
+  area_chair_award = {https://2023.aclweb.org/program/best_papers/},
   pdf          = {paper-glot500-arxiv.pdf},
   code         = {https://github.com/cisnlp/Glot500},
   arxiv        = {2305.12182},
   selected     = true,
   abstract     = {The NLP community has mainly focused on scaling Large Language Models (LLMs) vertically, i.e., making them better for about 100 languages. We instead scale LLMs horizontally: we create, through continued pretraining, Glot500-m, an LLM that covers 511 predominantly low-resource languages. An important part of this effort is to collect and clean Glot500-c, a corpus that covers these 511 languages and allows us to train Glot500-m. We evaluate Glot500-m on five diverse tasks across these languages. We observe large improvements for both high-resource and low-resource languages compared to an XLM-R baseline. Our analysis shows that no single factor explains the quality of multilingual LLM representations. Rather, a combination of factors determines quality including corpus size, script, "help" from related languages and the total capacity of the model. Our work addresses an important goal of NLP research: we should not limit NLP to a small fraction of the world's languages and instead strive to support as many languages as possible to bring the benefits of NLP technology to all languages and cultures. Code, data and models are available at https://github.com/cisnlp/Glot500.}
 }
-@inproceedings{nikeghbal2023girtdata,
+@inproceedings{nikeghbal-2023-girtdata,
   title        = {GIRT-Data: Sampling GitHub Issue Report Templates},
   author       = {Nikeghbal, Nafiseh and Kargaran, Amir Hossein and Heydarnoori, Abbas and Sch{\"u}tze, Hinrich},
   year         = 2023,
   booktitle    = {IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)},
   abbr         = {MSR 2023},
   code         = {https://github.com/kargaranamir/girt-data},
-  ieee         = {https://conf.researchr.org/details/msr-2023/msr-2023-data-showcase/4/GIRT-Data-Sampling-GitHub-Issue-Report-Templates},
+  ieee         = {https://ieeexplore.ieee.org/document/10174016},
   pdf          = {https://arxiv.org/pdf/2303.09236.pdf},
   arxiv        = {2303.09236},
-  selected     = true,
+  selected     = false,
   abstract     = {GitHub's issue reports provide developers with valuable information that is essential to the evolution of a software development project. Contributors can use these reports to perform software engineering tasks like submitting bugs, requesting features, and collaborating on ideas. In the initial versions of issue reports, there was no standard way of using them. As a result, the quality of issue reports varied widely. To improve the quality of issue reports, GitHub introduced issue report templates (IRTs), which pre-fill issue descriptions when a new issue is opened. An IRT usually contains greeting contributors, describing project guidelines, and collecting relevant information. However, despite of effectiveness of this feature which was introduced in 2016, only nearly 5% of GitHub repositories (with more than 10 stars) utilize it. There are currently few articles on IRTs, and the available ones only consider a small number of repositories. In this work, we introduce GIRT-Data, the first and largest dataset of IRTs in both YAML and Markdown format. This dataset and its corresponding open-source crawler tool are intended to support research in this area and to encourage more developers to use IRTs in their repositories. The stable version of the dataset contains 1,084,300 repositories and 50,032 of them support IRTs. The stable version of the dataset and crawler is available here: https://github.com/kargaranamir/girt-data}
 }
-@article{kargaran2023menucraft,
+@article{kargaran-2023-menucraft,
   title        = {MenuCraft: Interactive Menu System Design with Large Language Models},
   author       = {Kargaran, Amir Hossein and Nikeghbal, Nafiseh and Heydarnoori, Abbas and Sch{\"u}tze, Hinrich},
   year         = 2023,
@@ -33,7 +35,7 @@
   arxiv        = {2303.04496},
   website      = {https://kargaranamir.github.io/MenuCraft},
   pdf          = {https://arxiv.org/pdf/2303.04496.pdf},
-  selected     = true,
+  selected     = false,
   abstract     = {Menu system design is a challenging task involving many design options and various human factors. For example, one crucial factor that designers need to consider is the semantic and systematic relation of menu commands. However, capturing these relations can be challenging due to limited available resources. With the advancement of neural language models, large language models can utilize their vast pre-existing knowledge in designing and refining menu systems. In this paper, we propose MenuCraft, an AI-assisted designer for menu design that enables collaboration between the designer and a dialogue system to design menus. MenuCraft offers an interactive language-based menu design tool that simplifies the menu design process and enables easy customization of design options. MenuCraft supports a variety of interactions through dialog that allows performing few-shot learning.}
 }
 @inproceedings{kargaran-2022-hengam,
@@ -50,7 +52,7 @@
   acl          = {https://aclanthology.org/2022.aacl-main.74},
   video        = {https://www.youtube.com/watch?v=AaGBK1YRPZ4},
   code         = {https://github.com/kargaranamir/hengam},
-  selected     = true,
+  selected     = false,
   abstract     = {Many NLP main tasks benefit from an accurate understanding of temporal expressions, e.g., text summarization, question answering, and information retrieval. This paper introduces Hengam, an adversarially trained transformer for Persian temporal tagging outperforming state-of-the-art approaches on a diverse and manually created dataset. We create Hengam in the following concrete steps: (1) we develop HengamTagger, an extensible rule-based tool that can extract temporal expressions from a set of diverse language-specific patterns for any language of interest. (2) We apply HengamTagger to annotate temporal tags in a large and diverse Persian text collection (covering both formal and informal contexts) to be used as weakly labeled data. (3) We introduce an adversarially trained transformer model on HengamCorpus that can generalize over the HengamTagger’s rules. We create HengamGold, the first high-quality gold standard for Persian temporal tagging. Our trained adversarial HengamTransformer not only achieves the best performance in terms of the F1-score (a type F1-Score of 95.42 and a partial F1-Score of 91.60) but also successfully deals with language ambiguities and incorrect spellings. Our code, data, and models are publicly available at https://github.com/kargaranamir/Hengam.}
 }
 @inproceedings{kargaran-2021-wideadgraph,
@@ -81,7 +83,7 @@
   pdf          = {paper-detecting-arxiv-2020.pdf},
   code         = {https://github.com/kargaranamir/Wide-AdGraph},
   arxiv        = {2004.14826v1},
-  selected     = true,
+  selected     = false,
   abstract     = {Websites use third-party ads and tracking services to deliver targeted ads and collect information about users that visit them. These services put users privacy at risk and that's why users demand to block these services is growing. Most of the blocking solutions rely on crowd-sourced filter lists that are built and maintained manually by a large community of users. In this work, we seek to simplify the update of these filter lists by automatic detection of hidden advertisements. Existing tracker detection approaches generally focus on each individual website's URL patterns, code structure and/or DOM structure of website. Our work differs from existing approaches by combining different websites through a large scale graph connecting all resource requests made over a large set of sites. This graph is thereafter used to train a machine learning model, through graph representation learning to detect ads and tracking resources. As our approach combines different sources of information, it is more robust toward evasion techniques that use obfuscation or change usage patterns. We evaluate our work over the Alexa top-10K websites, and find its accuracy to be 90.9% also it can block new ads and tracking services which would necessitate to be blocked further crowd-sourced existing filter lists. Moreover, the approach followed in this paper sheds light on the ecosystem of third party tracking and advertising.}
 }
 @article{kargaran-2021-alramsimilarity,
@@ -100,7 +102,7 @@
   arxiv        = {2003.10600},
   video        = {https://www.youtube.com/watch?v=8_EB3OgtE2s},
   code         = {https://github.com/kargaranamir/Alarm-Similarity},
-  selected     = true,
+  selected     = false,
   abstract     = {An industrial process includes many devices, variables, and sub-processes that are physically or electronically interconnected. These interconnections imply some level of correlation between different process variables. Since most of the alarms in a process plant are defined on process variables, alarms are also correlated. However, this can be a nuisance to operators, for one fault might trigger a, sometimes large, number of alarms. So, it is essential to find and correct correlated alarms. In this paper, we study different methods and techniques proposed to measure correlation or similarity between alarms. The similarity indices are first analytically calculated and then studied and compared. The results are also validated using Monte-Carlo simulation.}
 }
 @article{kargaran-2020-alramsimilarity,
@@ -112,6 +114,6 @@
   pdf          = {paper-alarm-arxiv-2020.pdf},
   arxiv        = {2003.10600v1},
   code         = {https://github.com/kargaranamir/Alarm-Similarity},
-  selected     = true,
+  selected     = false,
   abstract     = {An industrial process includes many devices, variables and sub-processes that are physically or electronically interconnected. These interconnections imply some level of correlation between different process variables. Since most of the alarms in a process plant are defined on process variables, alarms are also correlated. But this can be a nuisance to operators, for one fault might trigger a, sometimes large, number of alarms. So, it is important to find and correct correlated alarms. In this paper, we study different methods and techniques that were proposed to measure correlation or similarity between alarms. The similarity indices are first analytically calculated and then studied. The results are also validated using Monte Carlo simulation.}
 }

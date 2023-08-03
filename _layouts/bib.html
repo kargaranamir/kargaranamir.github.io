@@ -96,6 +96,9 @@
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
+          {%- if entry.area_chair_award %}
+          <a style="color:red" href="{{ entry.area_chair_award }}" class="btn btn-sm z-depth-0" role="button">Area Chair Award</a>
+        {%- endif %}
           {%- if entry.best_student_paper %}
             <a style="color:red" href="{{ entry.best_student_paper }}" class="btn btn-sm z-depth-0" role="button">Best Student Paper</a>
           {%- endif %}
