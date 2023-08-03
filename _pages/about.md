@@ -15,8 +15,8 @@ abs_social: true  # includes abstract social icons at the bottom of the page
 ---
 
 
-Hi there! I’m Amir 👋 I'm a first year Ph.D. student and Research Associate at the [Center for Information and Language Processing (CIS)](https://www.cis.lmu.de/) of the [University of Munich (LMU Munich)](https://www.lmu.de/de/index.html). I am fortunate to be advised by [Prof. Hinrich Schütze](https://www.cis.uni-muenchen.de/schuetze/).
+Hi there! I’m Amir, currently a PhD student at [CIS LMU Munich](https://www.cis.lmu.de/) advised by [Prof. Hinrich Schütze](https://www.cis.uni-muenchen.de/schuetze/).
 
-Before starting my Ph.D., I completed my M.Sc. degree in Computer Engineering at [Sharif University of Technology](https://en.sharif.edu/), 2022. I got two B.Sc. degrees in Electrical Engineering and Computer Engineering from [Isfahan University of Technology](http://english.iut.ac.ir/), 2020.
+My research centers on Natural Language Processing, particularly on the topic of multilingualism. I am working to broaden the reach of NLP technology by enabling its application in more languages.
 
-Currently, My research is focused on **NLProc**. Check out our new work [Hengam](https://aclanthology.org/2022.aacl-main.74/) on temporal tagging. I am also an open-source contributor to [AIM](https://github.com/aalto-ui/aim), a service for evaluating GUIs.
+Before coming to LMU, I completed my M.Sc. in CE at [Sharif University of Technology](https://en.sharif.edu/), 2022. I did my B.Sc. at [Isfahan University of Technology](http://english.iut.ac.ir/) double majored in EE and CE, 2020.
