@@ -17,6 +17,6 @@ abs_social: false  # includes abstract social icons at the bottom of the page
 
 Hi there! I’m Amir :wave:, currently a PhD student at CIS LMU Munich advised by Prof. Hinrich Schütze.
 
-My research centers on Natural Language Processing, particularly on the topic of multilingualism. I am working to broaden the reach of NLP technology by enabling its application in more languages.
+My research centers on NLProc, particularly on the topic of multilingualism. I am working to broaden the reach of NLProc technology by enabling its application in more languages.
 
 Before coming to LMU, I completed my M.Sc. in CE at Sharif University of Technology, 2022. I did my B.Sc. at Isfahan University of Technology double majored in EE and CE, 2020.
