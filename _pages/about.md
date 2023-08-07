@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=https://cis.lmu.de/>CIS</a>, Oettingenstraße 67, 1. OG, Flügel C, 80538 München, Germany
+subtitle: CIS, Oettingenstraße 67, 1. OG, Flügel C, 80538 München, Germany
 
 profile:
   align: right
