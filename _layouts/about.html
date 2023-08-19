@@ -33,9 +33,9 @@ layout: default
             {{ content }}
           </div>
 
-          {% if page.news -%}
+          {% if page.abs_news -%}
           <!-- News -->
-          {%- include news.html %}
+          {%- include abs_news.html %}
           {%- endif %}
           {% if page.selected_papers -%}
             <!-- Selected papers -->

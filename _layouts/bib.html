@@ -127,6 +127,20 @@
             <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.pdf_v2 %}
+            {% if entry.pdf_v2 contains '://' -%}
+            <a href="{{ entry.pdf_v2 }}" class="btn btn-sm z-depth-0" role="button">PDF_V2</a>
+            {%- else -%}
+            <a href="{{ entry.pdf_v2 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF_V2</a>
+            {%- endif %}
+          {%- endif %}
+          {%- if entry.pdf_v1 %}
+            {% if entry.pdf_v1 contains '://' -%}
+            <a href="{{ entry.pdf_v1 }}" class="btn btn-sm z-depth-0" role="button">PDF_V1</a>
+            {%- else -%}
+            <a href="{{ entry.pdf_v1 | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF_V1</a>
+            {%- endif %}
+          {%- endif %}
           {%- if entry.video %}
             <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
           {%- endif %}

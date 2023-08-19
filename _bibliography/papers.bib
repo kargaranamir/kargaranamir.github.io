@@ -1,3 +1,31 @@
+@inproceedings{kargaran-2023-glotlid,
+	title        = {{GlotLID}: Language Identification for Low-Resource Languages},
+	author       = {Kargaran, Amir Hossein and Imani, Ayyoob and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
+	year         = 2023,
+	booktitle    = {The 2023 Conference on Empirical Methods in Natural Language Processing},
+	acl          = {https://openreview.net/forum?id=dl4e3EBz5j},
+  selected     = true,
+  abbr         = {EMNLP 2023},
+  abstract     = {Several recent papers have published good solutions for language identification (LID) for about 300 high-resource and medium-resource languages. However, there is no LID available that (i) covers a wide range of low-resource languages, (ii) is rigorously evaluated and reliable and (iii) efficient and easy to use. Here, we publish GlotLID-M, an LID model that satisfies the desiderata of wide coverage, reliability and efficiency. It identifies 1665 languages, a large increase in coverage compared to prior work. In our experiments, GlotLID-M outperforms four baselines (CLD3, FT176, OpenLID and NLLB) when balancing F1 and false positive rate (FPR). We analyze the unique challenges that low-resource LID poses: incorrect corpus metadata, leakage from high-resource languages, difficulty separating closely related languages, handling of macrolanguage vs varieties and in general noisy data. We hope that integrating GlotLID-M into dataset creation pipelines will improve quality and enhance accessibility of NLP technology for low-resource languages and cultures. GlotLID-M model, code, and list of data sources are available: https://github.com/cisnlp/GlotLID.},
+  arxiv        = {2310.16248},
+  pdf          = {paper-glotlid-emnlp-2023.pdf},
+  slides       = {poster-glotlid-emnlp-2023.pdf},
+  code         = {https://github.com/cisnlp/GlotLID},
+  website      = {https://huggingface.co/spaces/cis-lmu/glotlid-space},
+}
+
+@article{kargaran-2023-glotscript,
+	title        = {GlotScript: A Resource and Tool for Low Resource Writing System Identification},
+	author       = {Kargaran, Amir Hossein and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
+	year         = 2023,
+	journal      = {arXiv preprint arXiv:2309.13320},
+  selected     = true,
+  abbr         = {LREC 2024},
+  abstract     = {We present GlotScript, an open resource and tool for low resource writing system identification. GlotScript-R is a resource that provides the attested writing systems for more than 7,000 languages. It is compiled by aggregating information from existing writing system resources. GlotScript-T is a writing system identification tool that covers all 161 Unicode 15.0 scripts. For an input text, it returns its script distribution where scripts are identified by ISO 15924 codes. We also present two use cases for GlotScript. First, we demonstrate that GlotScript supports cleaning multilingual corpora such as mC4 and OSCAR. Second, we analyze the tokenization of a number of language models such as GPT-4 using GlotScript and provide insights on the coverage of low resource scripts and languages by each language model. We hope that GlotScript will become a useful resource for work on low resource languages in the NLP community. GlotScript-R and GlotScript-T are available at https://github.com/cisnlp/GlotScript.},
+  code         = {https://github.com/cisnlp/GlotScript},
+  arxiv        = {2309.13320},
+}
+
 @inproceedings{imanigooghari-2023-glot,
   title        = {Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages},
   author       = {ImaniGooghari, Ayyoob and Lin, Peiqin and Kargaran, Amir Hossein and Severini, Silvia and Sabet, Masoud Jalili and Kassner, Nora and Ma, Chunlan and Schmid, Helmut and Martins, André and Yvon, François and Sch{\"u}tze, Hinrich},
@@ -65,7 +93,8 @@
   pages        = {253--261},
   doi          = {10.1145/3447535.3462549},
   abbr         = {WEBSCI 2021},
-  pdf          = {paper-wideadgraph-websci-2021.pdf},
+  pdf_v2       = {paper-wideadgraph-websci-2021.pdf},
+  pdf_v1       = {paper-detecting-arxiv-2020.pdf},
   acm          = {https://dl.acm.org/doi/abs/10.1145/3447535.3462549},
   video        = {https://www.youtube.com/watch?v=PpFpfEMVze0},
   code         = {https://github.com/kargaranamir/Wide-AdGraph},
@@ -74,18 +103,7 @@
   best_student_paper = {https://www.acm.org/conferences/best-paper-awards},
   abstract     = {Websites use third-party ads and tracking services to deliver targeted ads and collect information about users that visit them. These services put users’ privacy at risk, and that is why users’ demand for blocking these services is growing. Most of the blocking solutions rely on crowd-sourced filter lists manually maintained by a large community of users. In this work, we seek to simplify the update of these filter lists by combining different websites through a large-scale graph connecting all resource requests made over a large set of sites. The features of this graph are extracted and used to train a machine learning algorithm with the aim of detecting ads and tracking resources. As our approach combines different information sources, it is more robust toward evasion techniques that use obfuscation or changing the usage patterns. We evaluate our work over the Alexa top-10K websites and find its accuracy to be 96.1% biased and 90.9% unbiased with high precision and recall. It can also block new ads and tracking services, which would necessitate being blocked by further crowd-sourced existing filter lists. Moreover, the approach followed in this paper sheds light on the ecosystem of third-party tracking and advertising.}
 }
-@article{kargaran-2020-detecting,
-  title        = {On Detecting Hidden Third-Party Web Trackers with a Wide Dependency Chain Graph: A Representation Learning Approach},
-  author       = {Kargaran, Amir Hossein and Akhondzadeh, Mohammad Sadegh and Heidarpour, Mohammad Reza and Manshaei, Mohammad Hossein and Salamatian, Kave and Nejad Sattary, Masoud},
-  year         = 2020,
-  journal      = {arXiv preprint arXiv:2004.14826},
-  abbr         = {arXiv 2020},
-  pdf          = {paper-detecting-arxiv-2020.pdf},
-  code         = {https://github.com/kargaranamir/Wide-AdGraph},
-  arxiv        = {2004.14826v1},
-  selected     = false,
-  abstract     = {Websites use third-party ads and tracking services to deliver targeted ads and collect information about users that visit them. These services put users privacy at risk and that's why users demand to block these services is growing. Most of the blocking solutions rely on crowd-sourced filter lists that are built and maintained manually by a large community of users. In this work, we seek to simplify the update of these filter lists by automatic detection of hidden advertisements. Existing tracker detection approaches generally focus on each individual website's URL patterns, code structure and/or DOM structure of website. Our work differs from existing approaches by combining different websites through a large scale graph connecting all resource requests made over a large set of sites. This graph is thereafter used to train a machine learning model, through graph representation learning to detect ads and tracking resources. As our approach combines different sources of information, it is more robust toward evasion techniques that use obfuscation or change usage patterns. We evaluate our work over the Alexa top-10K websites, and find its accuracy to be 90.9% also it can block new ads and tracking services which would necessitate to be blocked further crowd-sourced existing filter lists. Moreover, the approach followed in this paper sheds light on the ecosystem of third party tracking and advertising.}
-}
+
 @article{kargaran-2021-alramsimilarity,
   title        = {Analytical Derivation and Comparison of Alarm Similarity Measures},
   author       = {Kargaran, Amir Hossein and Neshastegaran, Amir and Izadi, Iman and Yazdian, Ehsan},
@@ -98,22 +116,11 @@
   doi          = {10.1016/j.ifacol.2021.08.268},
   abbr         = {ADCHEM 2021},
   website      = {https://www.sciencedirect.com/science/article/pii/S2405896321010417},
-  pdf          = {paper-alarm-ifac-2021.pdf},
+  pdf_v2       = {https://arxiv.org/pdf/2003.10600.pdf},
+  pdf_v1       = {paper-alarm-arxiv-2020.pdf},
   arxiv        = {2003.10600},
   video        = {https://www.youtube.com/watch?v=8_EB3OgtE2s},
   code         = {https://github.com/kargaranamir/Alarm-Similarity},
   selected     = false,
   abstract     = {An industrial process includes many devices, variables, and sub-processes that are physically or electronically interconnected. These interconnections imply some level of correlation between different process variables. Since most of the alarms in a process plant are defined on process variables, alarms are also correlated. However, this can be a nuisance to operators, for one fault might trigger a, sometimes large, number of alarms. So, it is essential to find and correct correlated alarms. In this paper, we study different methods and techniques proposed to measure correlation or similarity between alarms. The similarity indices are first analytically calculated and then studied and compared. The results are also validated using Monte-Carlo simulation.}
-}
-@article{kargaran-2020-alramsimilarity,
-  title        = {Analytical Derivation and Comparison of Alarm Similarity Analysis Methods},
-  author       = {Kargaran, Amir Hossein and Neshastegaran, Amir and Izadi, Iman and Yazdian, Ehsan},
-  year         = 2020,
-  journal      = {arXiv preprint arXiv:2003.10600},
-  abbr         = {arXiv 2020},
-  pdf          = {paper-alarm-arxiv-2020.pdf},
-  arxiv        = {2003.10600v1},
-  code         = {https://github.com/kargaranamir/Alarm-Similarity},
-  selected     = false,
-  abstract     = {An industrial process includes many devices, variables and sub-processes that are physically or electronically interconnected. These interconnections imply some level of correlation between different process variables. Since most of the alarms in a process plant are defined on process variables, alarms are also correlated. But this can be a nuisance to operators, for one fault might trigger a, sometimes large, number of alarms. So, it is important to find and correct correlated alarms. In this paper, we study different methods and techniques that were proposed to measure correlation or similarity between alarms. The similarity indices are first analytically calculated and then studied. The results are also validated using Monte Carlo simulation.}
 }
