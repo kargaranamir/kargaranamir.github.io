@@ -91,6 +91,10 @@
         {%- capture link -%}https://twitter.com/{{ site.twitter_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.hf_username -%}
+        {%- capture link -%}https://huggingface.co/{{ site.hf_username }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if site.medium_username -%}
         {%- capture link -%}https://medium.com/@{{ site.medium_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
