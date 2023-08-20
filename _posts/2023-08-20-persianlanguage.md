@@ -4,8 +4,8 @@ title: Persian Language - Beginnings and Ongoing Efforts
 date: 2023-08-20 00:00:00-0400
 description: My Passionate about Persian language, cultural legacy; preserving through research efforts.
 categories: personal-posts paper-posts
-giscus_comments: true
-comments: true
+giscus_comments: false
+comments: false
 related_posts: false
 related_publications: imanigooghari-2023-glot, kargaran-2022-hengam
 ---
