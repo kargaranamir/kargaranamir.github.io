@@ -20,6 +20,6 @@ Again, I am reminded of the profound impact language and history have on shaping
 Here, I'd like to outline my effort here:
 
 1.  A small project of mine that suddenly becomes bigger is the creation of a highly scalable library (known as [Parstdex](https://github.com/kargaranamir/parstdex)) for extracting Persian time and date markers. An equivalent and better version of this work in English was done in 2012 (ten years ago).
-We subsequently expanded upon this effort by incorporating transformers leading to its publication ([Hengam models](https://github.com/kargaranamir/Hengam)) in the Asia chapter of the ACL.
+We subsequently expanded upon this effort by incorporating transformers leading to its publication ([Hengam models](https://github.com/kargaranamir/Hengam)) in the Asia chapter of the ACL. You can test hengam live [here](https://huggingface.co/spaces/kargaranamir/Hengam).
 
-2. [Glot500](https://github.com/cisnlp/Glot500) stands as another project, with our objective centered around developing a multilingual masked language model designed to assist numerous low-resource languages. The dataset for this model encompasses a variety of languages, such as Iranian Persian, South Azerbaijani, Kurdish, Tajik, and Dari.
+2. [Glot500](https://github.com/cisnlp/Glot500) is another project, with our objective centered around developing a multilingual masked language model designed to assist lots of low-resource languages. The dataset for this model includes a variety of languages, such as Iranian Persian, South Azerbaijani, Kurdish, Tajik, and Dari.
