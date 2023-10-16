@@ -15,8 +15,14 @@ abs_social: false  # includes abstract social icons at the bottom of the page
 ---
 
 
-Hi there! I’m Amir :wave:, currently a 1st year PhD student at [CIS LMU Munich](https://cis.lmu.de) advised by Prof. [Hinrich Schütze](https://www.cis.lmu.de/schuetze).
+Hi there! I’m Amir :wave:, currently a 2nd year PhD student at [CIS LMU Munich](https://cis.lmu.de) advised by Prof. [Hinrich Schütze](https://www.cis.lmu.de/schuetze).
 
-My research centers on NLProc, particularly on the topic of multilingualism. I am working to broaden the reach of NLProc technology by enabling its application in more languages.
+I am interested in:
 
-Before coming to LMU, I completed my M.Sc. in CE at [Sharif University of Technology](https://en.sharif.edu), 2022. I did my B.Sc. at [Isfahan University of Technology](https://english.iut.ac.ir) double majored in EE and CE, 2020.
+- Scaling NLP horizontally: How can we can put more languages on the Map of NLP?
+
+Before coming to LMU, 
+- I completed my M.Sc. in CE at [Sharif University of Technology](https://en.sharif.edu), 2022.
+- I did my B.Sc. at [Isfahan University of Technology](https://english.iut.ac.ir) double majored in EE and CE, 2020.
+
+My favorite color is [green](./assets/img/green.png).
