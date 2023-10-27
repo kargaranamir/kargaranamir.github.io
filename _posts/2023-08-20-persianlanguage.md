@@ -23,3 +23,12 @@ Here, I'd like to outline my effort here:
 We subsequently expanded upon this effort by incorporating transformers leading to its publication ([Hengam models](https://github.com/kargaranamir/Hengam)) in the Asia chapter of the ACL. You can test hengam live [here](https://huggingface.co/spaces/kargaranamir/Hengam).
 
 2. [Glot500](https://github.com/cisnlp/Glot500) is another project, with our objective centered around developing a multilingual masked language model designed to assist lots of low-resource languages. The dataset for this model includes a variety of languages, such as Iranian Persian, South Azerbaijani, Kurdish, Tajik, and Dari.
+
+3. [GlotLID] is another project in which we have scaled language identification to cover more than 1600 languages. The dataset for this model includes a variety of languages, such as Iranian Persian, South Azerbaijani, Balochi, Gilaki, Mazandarani, Kurdish, Tajik, Luri, and Dari.
+
+4. [GlotSparse] is a list of datasources and downloaded sources for low-resource languages. The dataset includes South Azerbaijani, Balochi, Gilaki, Gurani, and Southern Kurdish.
+
+
+
+
+

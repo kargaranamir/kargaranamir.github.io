@@ -15,14 +15,9 @@ abs_social: false  # includes abstract social icons at the bottom of the page
 ---
 
 
-Hi there! I’m Amir :wave:, currently a 2nd year PhD student at [CIS LMU Munich](https://cis.lmu.de) advised by Prof. [Hinrich Schütze](https://www.cis.lmu.de/schuetze).
+Hello! I’m Amir 👋, a researcher in Natural Language Processing (NLP) currently pursuing my PhD at [CIS, LMU Munich](https://cis.lmu.de) advised by Prof. [Hinrich Schütze](https://www.cis.lmu.de/schuetze). My primary focus is on scaling NLP horizontally to include more languages in the map of NLP.
 
-I am interested in:
+- I completed my M.Sc. in Computer Engineering at [Sharif University of Technology](https://en.sharif.edu), 2022.
+- I did my B.Sc. at [Isfahan University of Technology](https://english.iut.ac.ir) double majored in Electrical Engineering and Computer Engineering, 2020.
 
-- Scaling NLP horizontally: How can we can put more languages on the Map of NLP?
-
-Before coming to LMU, 
-- I completed my M.Sc. in CE at [Sharif University of Technology](https://en.sharif.edu), 2022.
-- I did my B.Sc. at [Isfahan University of Technology](https://english.iut.ac.ir) double majored in EE and CE, 2020.
-
-My favorite color is [green](./assets/img/green.png).
+My favorite color is [green](./assets/img/green.png) 🌿.
