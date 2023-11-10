@@ -24,9 +24,9 @@ We subsequently expanded upon this effort by incorporating transformers leading 
 
 2. [Glot500](https://github.com/cisnlp/Glot500) is another project, with our objective centered around developing a multilingual masked language model designed to assist lots of low-resource languages. The dataset for this model includes a variety of languages, such as Iranian Persian, South Azerbaijani, Kurdish, Tajik, and Dari.
 
-3. [GlotLID] is another project in which we have scaled language identification to cover more than 1600 languages. The dataset for this model includes a variety of languages, such as Iranian Persian, South Azerbaijani, Balochi, Gilaki, Mazandarani, Kurdish, Tajik, Luri, and Dari.
+3. [GlotLID](https://github.com/cisnlp/GlotLID) is another project in which we have scaled language identification to cover more than 1600 languages. The dataset for this model includes a variety of languages, such as Iranian Persian, South Azerbaijani, Balochi, Gilaki, Mazandarani, Kurdish, Tajik, Luri, and Dari. You can test GlotLID live [here](https://huggingface.co/spaces/cis-lmu/glotlid-space).
 
-4. [GlotSparse] is a list of datasources and downloaded sources for low-resource languages. The dataset includes South Azerbaijani, Balochi, Gilaki, Gurani, and Southern Kurdish.
+4. [GlotSparse](https://github.com/cisnlp/GlotSparse) is a list of datasources and downloaded sources for low-resource languages. The dataset includes South Azerbaijani, Balochi, Gilaki, Gurani, and Southern Kurdish.
 
 
 
