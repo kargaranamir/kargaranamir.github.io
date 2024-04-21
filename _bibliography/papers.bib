@@ -14,16 +14,32 @@
   website      = {https://huggingface.co/spaces/cis-lmu/glotlid-space},
 }
 
-@article{kargaran-2023-glotscript,
+@article{kargaran-2024-glotscript,
 	title        = {GlotScript: A Resource and Tool for Low Resource Writing System Identification},
 	author       = {Kargaran, Amir Hossein and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
-	year         = 2023,
-	journal      = {arXiv preprint arXiv:2309.13320},
+	year         = 2024,
+	journal      = {The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation},
   selected     = true,
   abbr         = {LREC 2024},
   abstract     = {We present GlotScript, an open resource and tool for low resource writing system identification. GlotScript-R is a resource that provides the attested writing systems for more than 7,000 languages. It is compiled by aggregating information from existing writing system resources. GlotScript-T is a writing system identification tool that covers all 161 Unicode 15.0 scripts. For an input text, it returns its script distribution where scripts are identified by ISO 15924 codes. We also present two use cases for GlotScript. First, we demonstrate that GlotScript supports cleaning multilingual corpora such as mC4 and OSCAR. Second, we analyze the tokenization of a number of language models such as GPT-4 using GlotScript and provide insights on the coverage of low resource scripts and languages by each language model. We hope that GlotScript will become a useful resource for work on low resource languages in the NLP community. GlotScript-R and GlotScript-T are available at https://github.com/cisnlp/GlotScript.},
   code         = {https://github.com/cisnlp/GlotScript},
   arxiv        = {2309.13320},
+}
+
+@inproceedings{nikeghbal-2024-girtmodel,
+  title        = {GIRT-Model: Automated Generation of Issue Report Templates},
+  booktitle    = {21st IEEE/ACM International Conference on Mining Software Repositories (MSR)},
+  author       = {Nikeghbal, Nafiseh and Kargaran, Amir Hossein and Heydarnoori, Abbas},
+  month        = {April},
+  year         = 2024,
+  publisher    = {IEEE/ACM},
+  address      = {Lisbon, Portugal},
+  acm          = {https://doi.org/10.1145/3643991.3644906},
+  arxiv        = {2402.02632},
+  selected     = false,
+  abbr         = {MSR 2024},
+  abstract     = {Platforms such as GitHub and GitLab introduce Issue Report Templates (IRTs) to enable more effective issue management and better alignment with developer expectations. However, these templates are not widely adopted in most repositories, and there is currently no tool available to aid developers in generating them. In this work, we introduce GIRT-Model, an assistant language model that automatically generates IRTs based on the developer's instructions regarding the structure and necessary fields. We create GIRT-Instruct, a dataset comprising pairs of instructions and IRTs, with the IRTs sourced from GitHub repositories. We use GIRT-Instruct to instruction-tune a T5-base model to create the GIRT-Model. In our experiments, GIRT-Model outperforms general language models (T5 and Flan-T5 with different parameter sizes) in IRT generation by achieving significantly higher scores in ROUGE, BLEU, METEOR, and human evaluation. Additionally, we analyze the effectiveness of GIRT-Model in a user study in which participants wrote short IRTs with GIRT-Model. Our results show that the participants find GIRT-Model useful in the automated generation of templates. We hope that through the use of GIRT-Model, we can encourage more developers to adopt IRTs in their repositories. We publicly release our code, dataset, and model at https://github.com/ISE-Research/girt-model.},
+  code         = {https://github.com/ISE-Research/girt-model},
 }
 
 @inproceedings{imanigooghari-2023-glot,
@@ -41,6 +57,7 @@
   selected     = true,
   abstract     = {The NLP community has mainly focused on scaling Large Language Models (LLMs) vertically, i.e., making them better for about 100 languages. We instead scale LLMs horizontally: we create, through continued pretraining, Glot500-m, an LLM that covers 511 predominantly low-resource languages. An important part of this effort is to collect and clean Glot500-c, a corpus that covers these 511 languages and allows us to train Glot500-m. We evaluate Glot500-m on five diverse tasks across these languages. We observe large improvements for both high-resource and low-resource languages compared to an XLM-R baseline. Our analysis shows that no single factor explains the quality of multilingual LLM representations. Rather, a combination of factors determines quality including corpus size, script, "help" from related languages and the total capacity of the model. Our work addresses an important goal of NLP research: we should not limit NLP to a small fraction of the world's languages and instead strive to support as many languages as possible to bring the benefits of NLP technology to all languages and cultures. Code, data and models are available at https://github.com/cisnlp/Glot500.}
 }
+
 @inproceedings{nikeghbal-2023-girtdata,
   title        = {GIRT-Data: Sampling GitHub Issue Report Templates},
   author       = {Nikeghbal, Nafiseh and Kargaran, Amir Hossein and Heydarnoori, Abbas and Sch{\"u}tze, Hinrich},
@@ -54,6 +71,7 @@
   selected     = false,
   abstract     = {GitHub's issue reports provide developers with valuable information that is essential to the evolution of a software development project. Contributors can use these reports to perform software engineering tasks like submitting bugs, requesting features, and collaborating on ideas. In the initial versions of issue reports, there was no standard way of using them. As a result, the quality of issue reports varied widely. To improve the quality of issue reports, GitHub introduced issue report templates (IRTs), which pre-fill issue descriptions when a new issue is opened. An IRT usually contains greeting contributors, describing project guidelines, and collecting relevant information. However, despite of effectiveness of this feature which was introduced in 2016, only nearly 5% of GitHub repositories (with more than 10 stars) utilize it. There are currently few articles on IRTs, and the available ones only consider a small number of repositories. In this work, we introduce GIRT-Data, the first and largest dataset of IRTs in both YAML and Markdown format. This dataset and its corresponding open-source crawler tool are intended to support research in this area and to encourage more developers to use IRTs in their repositories. The stable version of the dataset contains 1,084,300 repositories and 50,032 of them support IRTs. The stable version of the dataset and crawler is available here: https://github.com/kargaranamir/girt-data}
 }
+
 @article{kargaran-2023-menucraft,
   title        = {MenuCraft: Interactive Menu System Design with Large Language Models},
   author       = {Kargaran, Amir Hossein and Nikeghbal, Nafiseh and Heydarnoori, Abbas and Sch{\"u}tze, Hinrich},
@@ -66,6 +84,7 @@
   selected     = false,
   abstract     = {Menu system design is a challenging task involving many design options and various human factors. For example, one crucial factor that designers need to consider is the semantic and systematic relation of menu commands. However, capturing these relations can be challenging due to limited available resources. With the advancement of neural language models, large language models can utilize their vast pre-existing knowledge in designing and refining menu systems. In this paper, we propose MenuCraft, an AI-assisted designer for menu design that enables collaboration between the designer and a dialogue system to design menus. MenuCraft offers an interactive language-based menu design tool that simplifies the menu design process and enables easy customization of design options. MenuCraft supports a variety of interactions through dialog that allows performing few-shot learning.}
 }
+
 @inproceedings{kargaran-2022-hengam,
   title        = {Hengam: An Adversarially Trained Transformer for Persian Temporal Tagging},
   author       = {Mirzababaei, Sajad  and Kargaran, Amir Hossein  and Schütze, Hinrich  and Asgari, Ehsaneddin},
