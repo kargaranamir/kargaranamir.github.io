@@ -105,6 +105,9 @@
           {%- if entry.best_paper %}
             <a style="color:red" href="{{ entry.best_paper }}" class="btn btn-sm z-depth-0" role="button">Best Paper</a>
           {%- endif %}
+          {%- if entry.oral %}
+          <a style="color:red" href="{{ entry.oral }}" class="btn btn-sm z-depth-0" role="button">Oral Presentation</a>
+          {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
@@ -173,6 +176,9 @@
           {%- endif %}
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+          {%- endif %}
+          {%- if entry.demo %}
+          <a href="{{ entry.demo }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
           {%- endif %}
           </div>
 

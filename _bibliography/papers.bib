@@ -1,3 +1,19 @@
+@inproceedings{kargaran-etal-2024-masklid,
+	title        = {MaskLID: Code-Switching Language Identification through Iterative Masking},
+	author       = {Kargaran, Amir Hossein and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
+	year         = 2024,
+	booktitle    = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+	publisher    = {Association for Computational Linguistics},
+	address      = {Bangkok, Thailand},
+  abbr         = {ACL 2024},
+  abstract     = {We present MaskLID, a simple, yet effective, code-switching (CS) language identification (LID) method. MaskLID does not require any training and is designed to complement current high-performance sentence-level LIDs. Sentence-level LIDs are classifiers trained on monolingual texts to provide single labels, typically using a softmax layer to turn scores into probabilities. However, in cases where a sentence is composed in both L1 and L2 languages, the LID classifier often only returns the dominant label L1. To address this limitation, MaskLID employs a strategy to mask text features associated with L1, allowing the LID to classify the text as L2 in the next round. This method uses the LID itself to identify the features that require masking and does not rely on any external resource. In this work, we explore the use of MaskLID for two open-source LIDs (GlotLID and OpenLID), that are both based on the FastText architecture. Code and demo are available at https://github.com/cisnlp/MaskLID},
+  selected     = true,
+  arxiv        = {2406.06263},
+  pdf          = {paper-masklid-acl-2024.pdf},
+  code         = {https://github.com/cisnlp/MaskLID},
+  demo         = {https://huggingface.co/spaces/cis-lmu/MaskLID},
+}
+
 @inproceedings{kargaran-2023-glotlid,
 	title        = {{GlotLID}: Language Identification for Low-Resource Languages},
 	author       = {Kargaran, Amir Hossein and Imani, Ayyoob and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
@@ -11,7 +27,7 @@
   pdf          = {paper-glotlid-emnlp-2023.pdf},
   slides       = {poster-glotlid-emnlp-2023.pdf},
   code         = {https://github.com/cisnlp/GlotLID},
-  website      = {https://huggingface.co/spaces/cis-lmu/glotlid-space},
+  demo         = {https://huggingface.co/spaces/cis-lmu/glotlid-space},
 }
 
 @article{kargaran-2024-glotscript,
@@ -19,10 +35,12 @@
 	author       = {Kargaran, Amir Hossein and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
 	year         = 2024,
 	journal      = {The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation},
-  selected     = true,
+  selected     = false,
+  oral         = {},
   abbr         = {LREC 2024},
   abstract     = {We present GlotScript, an open resource and tool for low resource writing system identification. GlotScript-R is a resource that provides the attested writing systems for more than 7,000 languages. It is compiled by aggregating information from existing writing system resources. GlotScript-T is a writing system identification tool that covers all 161 Unicode 15.0 scripts. For an input text, it returns its script distribution where scripts are identified by ISO 15924 codes. We also present two use cases for GlotScript. First, we demonstrate that GlotScript supports cleaning multilingual corpora such as mC4 and OSCAR. Second, we analyze the tokenization of a number of language models such as GPT-4 using GlotScript and provide insights on the coverage of low resource scripts and languages by each language model. We hope that GlotScript will become a useful resource for work on low resource languages in the NLP community. GlotScript-R and GlotScript-T are available at https://github.com/cisnlp/GlotScript.},
   code         = {https://github.com/cisnlp/GlotScript},
+  slides       = {slides-glotscript-lrec-2024.pdf},
   arxiv        = {2309.13320},
 }
 
@@ -54,7 +72,8 @@
   pdf          = {paper-glot500-acl-2023.pdf},
   code         = {https://github.com/cisnlp/Glot500},
   arxiv        = {2305.12182},
-  selected     = true,
+  selected     = false,
+  oral         = {},
   abstract     = {The NLP community has mainly focused on scaling Large Language Models (LLMs) vertically, i.e., making them better for about 100 languages. We instead scale LLMs horizontally: we create, through continued pretraining, Glot500-m, an LLM that covers 511 predominantly low-resource languages. An important part of this effort is to collect and clean Glot500-c, a corpus that covers these 511 languages and allows us to train Glot500-m. We evaluate Glot500-m on five diverse tasks across these languages. We observe large improvements for both high-resource and low-resource languages compared to an XLM-R baseline. Our analysis shows that no single factor explains the quality of multilingual LLM representations. Rather, a combination of factors determines quality including corpus size, script, "help" from related languages and the total capacity of the model. Our work addresses an important goal of NLP research: we should not limit NLP to a small fraction of the world's languages and instead strive to support as many languages as possible to bring the benefits of NLP technology to all languages and cultures. Code, data and models are available at https://github.com/cisnlp/Glot500.}
 }
 
@@ -79,7 +98,7 @@
   journal      = {arXiv preprint arXiv:2303.04496},
   abbr         = {arXiv 2023},
   arxiv        = {2303.04496},
-  website      = {https://kargaranamir.github.io/MenuCraft},
+  demo      = {https://kargaranamir.github.io/MenuCraft},
   pdf          = {https://arxiv.org/pdf/2303.04496.pdf},
   selected     = false,
   abstract     = {Menu system design is a challenging task involving many design options and various human factors. For example, one crucial factor that designers need to consider is the semantic and systematic relation of menu commands. However, capturing these relations can be challenging due to limited available resources. With the advancement of neural language models, large language models can utilize their vast pre-existing knowledge in designing and refining menu systems. In this paper, we propose MenuCraft, an AI-assisted designer for menu design that enables collaboration between the designer and a dialogue system to design menus. MenuCraft offers an interactive language-based menu design tool that simplifies the menu design process and enables easy customization of design options. MenuCraft supports a variety of interactions through dialog that allows performing few-shot learning.}
@@ -118,7 +137,7 @@
   video        = {https://www.youtube.com/watch?v=PpFpfEMVze0},
   code         = {https://github.com/kargaranamir/Wide-AdGraph},
   arxiv        = {2004.14826},
-  selected     = true,
+  selected     = false,
   best_student_paper = {https://www.acm.org/conferences/best-paper-awards},
   abstract     = {Websites use third-party ads and tracking services to deliver targeted ads and collect information about users that visit them. These services put users’ privacy at risk, and that is why users’ demand for blocking these services is growing. Most of the blocking solutions rely on crowd-sourced filter lists manually maintained by a large community of users. In this work, we seek to simplify the update of these filter lists by combining different websites through a large-scale graph connecting all resource requests made over a large set of sites. The features of this graph are extracted and used to train a machine learning algorithm with the aim of detecting ads and tracking resources. As our approach combines different information sources, it is more robust toward evasion techniques that use obfuscation or changing the usage patterns. We evaluate our work over the Alexa top-10K websites and find its accuracy to be 96.1% biased and 90.9% unbiased with high precision and recall. It can also block new ads and tracking services, which would necessitate being blocked by further crowd-sourced existing filter lists. Moreover, the approach followed in this paper sheds light on the ecosystem of third-party tracking and advertising.}
 }
