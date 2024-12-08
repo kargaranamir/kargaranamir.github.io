@@ -1,9 +1,25 @@
+@article{kargaran-2024-mexa,
+  title        = {MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment},
+  author       = {Kargaran, Amir Hossein and Modarressi, Ali and Nikeghbal, Nafiseh and Diesner, Jana and Yvon, François and Sch{\"u}tze, Hinrich},
+  year         = 2024,
+  publisher    = {arXiv preprint},
+  abbr         = {arXiv 2024},
+  selected     = true,
+  arxiv        = {2410.05873},
+  abstract     = {English-centric large language models (LLMs) often show strong multilingual capabilities. However, the multilingual performance of these models remains unclear and is not thoroughly evaluated for many languages. Most benchmarks for multilinguality focus on classic NLP tasks, or cover a minimal number of languages. We introduce MEXA, a method for assessing the multilingual capabilities of pre-trained English-centric LLMs using parallel sentences, which are available for more languages than existing downstream tasks. MEXA leverages the fact that English-centric LLMs use English as a kind of pivot language in their intermediate layers. It computes the alignment between English and non-English languages using parallel sentences to evaluate the transfer of language understanding from English to other languages. This alignment can be used to estimate model performance in other languages. We conduct studies using various parallel datasets (FLORES-200 and Bible), models (Llama family, Gemma family, Mistral, and OLMo), and established downstream tasks (Belebele, m-MMLU, and m-ARC). We explore different methods to compute embeddings in decoder-only models. Our results show that MEXA, in its default settings, achieves a statistically significant average Pearson correlation of 0.90 with three established downstream tasks across nine models and two parallel datasets. This suggests that MEXA is a reliable method for estimating the multilingual capabilities of English-centric LLMs, providing a clearer understanding of their multilingual potential and the inner workings of LLMs. Leaderboard: https://huggingface.co/spaces/cis-lmu/Mexa, Code: https://github.com/cisnlp/Mexa.},
+  code         = {https://github.com/cisnlp/Mexa},
+  demo         = {https://huggingface.co/spaces/cis-lmu/Mexa},
+  }
+
+
+
 @article{kargaran-2024-glotcc,
 	title        = {Glot{CC}: An Open Broad-Coverage CommonCrawl Corpus and Pipeline for Minority Languages},
 	author       = {Kargaran, Amir Hossein and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
 	year         = 2024,
 	publisher    = {Advances in Neural Information Processing Systems},
 	code         = {https://github.com/cisnlp/GlotCC},
+  demo         = {https://huggingface.co/datasets/cis-lmu/GlotCC-v1},
 	abbr         = {NeurIPS 2024},
 	selected     = true,
 	arxiv        = {2410.23825},
