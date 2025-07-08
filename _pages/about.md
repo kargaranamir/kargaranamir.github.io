@@ -26,4 +26,4 @@ My current research focuses on <b>Multilingual NLP</b>, specifically on scaling 
 Before starting my Ph.D., I completed my M.Sc. degree in Computer Engineering at [Sharif University of Technology](https://en.sharif.edu/) in 2022. I earned two B.Sc. degrees in Electrical Engineering and Computer Engineering from [Isfahan University of Technology](http://english.iut.ac.ir/) in 2020. Additionally, I was a research intern with the [User Interfaces group at Aalto University](http://userinterfaces.aalto.fi/) during the summers of 2021 and 2022. I contributed to the development of the [Aalto Interface Metrics (AIM)](https://github.com/aalto-ui/aim) project, a service and codebase for computational GUI evaluation.
 
 
-<p style="color:red;">I am currently looking for a summer internship. If you know of any opportunities or would like to discuss potential collaborations, feel free to reach out!</p>
+<p style="color:red;">I’m currently on the job market, exploring research or applied roles in NLP. My work focuses on large language models, multilingual NLP, and programming languages. If you think I could be a good fit for your team, feel free to reach out.</p>

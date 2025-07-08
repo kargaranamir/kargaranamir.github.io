@@ -1,15 +1,84 @@
-@article{kargaran-2024-mexa,
+@inproceedings{liu-etal-2025-transliterations,
+    title = {How Transliterations Improve Crosslingual Alignment},
+    author={Liu, Yihong and Wang, Mingyang and Kargaran, Amir Hossein and Imani, Ayyoob and Xhelili, Orgest and Ye, Haotian and Ma, Chunlan and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
+    booktitle = {Proceedings of the 31st International Conference on Computational Linguistics},
+    year = {2025},
+    address = {Abu Dhabi, UAE},
+    abbr         = {COLING 2025},
+    publisher = {Association for Computational Linguistics},
+    acl = {https://aclanthology.org/2025.coling-main.165/},
+    abstract = {Recent studies have shown that post-aligning multilingual pretrained language models (mPLMs) using alignment objectives on both original and transliterated data can improve crosslingual alignment. This improvement further leads to better crosslingual transfer performance. However, it remains unclear how and why a better crosslingual alignment is achieved, as this technique only involves transliterations, and does not use any parallel data. This paper attempts to explicitly evaluate the crosslingual alignment and identify the key elements in transliteration-based approaches that contribute to better performance. For this, we train multiple models under varying setups for two pairs of related languages: (1) Polish and Ukrainian and (2) Hindi and Urdu. To assess alignment, we define four types of similarities based on sentence representations. Our experimental results show that adding transliterations alone improves the overall similarities, even for random sentence pairs. With the help of auxiliary transliteration-based alignment objectives, especially the contrastive objective, the model learns to distinguish matched from random pairs, leading to better crosslingual alignment. However, we also show that better alignment does not always yield better downstream performance, suggesting that further research is needed to clarify the connection between alignment and performance. The code implementation is based on https://github.com/cisnlp/Transliteration-PPA.}
+}
+
+
+@article{liu-2025-relation,
+  title={On Relation-Specific Neurons in Large Language Models},
+  author={Liu, Yihong and Chen, Runsheng and Hirlimann, Lea and Hakimi, Ahmad Dawar and Wang, Mingyang and Kargaran, Amir Hossein and Rothe, Sascha and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
+  year         = 2025,
+  journal      = {arXiv preprint},
+  abbr         = {arXiv 2025},
+  arxiv        = {2502.17355},
+  selected     = false,
+  abstract     = {In large language models (LLMs), certain neurons can store distinct pieces of knowledge learned during pretraining. While knowledge typically appears as a combination of relations and entities, it remains unclear whether some neurons focus on a relation itself -- independent of any entity. We hypothesize such neurons detect a relation in the input text and guide generation involving such a relation. To investigate this, we study the Llama-2 family on a chosen set of relations with a statistics-based method. Our experiments demonstrate the existence of relation-specific neurons. We measure the effect of selectively deactivating candidate neurons specific to relation r on the LLM's ability to handle (1) facts whose relation is r and (2) facts whose relation is a different relation r′≠r. With respect to their capacity for encoding relation information, we give evidence for the following three properties of relation-specific neurons. (i) Neuron cumulativity. The neurons for r present a cumulative effect so that deactivating a larger portion of them results in the degradation of more facts in r. (ii) Neuron versatility. Neurons can be shared across multiple closely related as well as less related relations. Some relation neurons transfer across languages. (iii) Neuron interference. Deactivating neurons specific to one relation can improve LLM generation performance for facts of other relations. We will make our code publicly available at https://github.com/cisnlp/relation-specific-neurons.},
+  code        = {https://github.com/cisnlp/relation-specific-neurons}
+}
+
+
+@article{liu-2025-tracing,
+  title={Tracing Multilingual Factual Knowledge Acquisition in Pretraining},
+  author={Liu, Yihong and Wang, Mingyang and Kargaran, Amir Hossein and K{\"o}rner, Felicia and Nie, Ercong and Plank, Barbara and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
+  year         = 2025,
+  journal      = {arXiv preprint},
+  abbr         = {arXiv 2025},
+  arxiv        = {2502.17355},
+  selected     = false,
+  abstract     = {Large Language Models (LLMs) are capable of recalling multilingual factual knowledge present in their pretraining data. However, most studies evaluate only the final model, leaving the development of factual recall and crosslingual consistency throughout pretraining largely unexplored. In this work, we trace how factual recall and crosslingual consistency evolve during pretraining, focusing on OLMo-7B as a case study. We find that both accuracy and consistency improve over time for most languages. We show that this improvement is primarily driven by the fact frequency in the pretraining corpus: more frequent facts are more likely to be recalled correctly, regardless of language. Yet, some low-frequency facts in non-English languages can still be correctly recalled. Our analysis reveals that these instances largely benefit from crosslingual transfer of their English counterparts -- an effect that emerges predominantly in the early stages of pretraining. We pinpoint two distinct pathways through which multilingual factual knowledge acquisition occurs: (1) frequency-driven learning, which is dominant and language-agnostic, and (2) crosslingual transfer, which is limited in scale and typically constrained to relation types involving named entities. We release our code and data to facilitate further research at https://github.com/cisnlp/multilingual-fact-tracing.},
+  code        = {https://github.com/cisnlp/multilingual-fact-tracing}
+}
+
+
+@inproceedings{penedo-2025-fineweb2,
+  title={FineWeb2: One Pipeline to Scale Them All--Adapting Pre-Training Data Processing to Every Language},
+  author={Penedo, Guilherme and Kydl{\'\i}{\v{c}}ek, Hynek and Sabol{\v{c}}ec, Vinko and Messmer, Bettina and Foroutan, Negar and Kargaran, Amir Hossein and Raffel, Colin and Jaggi, Martin and Von Werra, Leandro and Wolf, Thomas},
+  year         = 2025,
+	booktitle    = {Second Conference on Language Modeling},
+  abbr         = {COLM 2025},
+  selected     = true,
+  arxiv        = {2506.20920},
+  abstract     = {Pre-training state-of-the-art large language models (LLMs) requires vast amounts of clean and diverse text data. While the open development of large high-quality English pre-training datasets has seen substantial recent progress, training performant multilingual LLMs remains a challenge, in large part due to the inherent difficulty of tailoring filtering and deduplication pipelines to a large number of languages. In this work, we introduce a new pre-training dataset curation pipeline based on FineWeb that can be automatically adapted to support any language. We extensively ablate our pipeline design choices on a set of nine diverse languages, guided by a set of meaningful and informative evaluation tasks that were chosen through a novel selection process based on measurable criteria. Ultimately, we show that our pipeline can be used to create non-English corpora that produce more performant models than prior datasets. We additionally introduce a straightforward and principled approach to rebalance datasets that takes into consideration both duplication count and quality, providing an additional performance uplift. Finally, we scale our pipeline to over 1000 languages using almost 100 Common Crawl snapshots to produce FineWeb2, a new 20 terabyte (5 billion document) multilingual dataset which we release along with our pipeline, training, and evaluation codebases.},
+  code         = {https://github.com/huggingface/fineweb-2},
+  demo         = {https://huggingface.co/datasets/HuggingFaceFW/fineweb-2}
+}
+
+
+@inproceedings{kargaran-2025-programming,
+  title={How Programming Concepts and Neurons Are Shared in Code Language Models},
+  author={Kargaran, Amir Hossein and Liu, Yihong and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
+  year         = 2025,
+	booktitle    = {Findings of the Association for Computational Linguistics},
+	publisher    = {Association for Computational Linguistics},
+  abbr         = {ACL 2025},
+  selected     = true,
+  arxiv        = {2506.01074},
+  abstract     = {Several studies have explored the mechanisms of large language models (LLMs) in coding tasks, but most have focused on programming languages (PLs) in a monolingual setting. In this paper, we investigate the relationship between multiple PLs and English in the concept space of LLMs. We perform a few-shot translation task on 21 PL pairs using two Llama-based models. By decoding the embeddings of intermediate layers during this task, we observe that the concept space is closer to English (including PL keywords) and assigns high probabilities to English tokens in the second half of the intermediate layers. We analyze neuron activations for 11 PLs and English, finding that while language-specific neurons are primarily concentrated in the bottom layers, those exclusive to each PL tend to appear in the top layers. For PLs that are highly aligned with multiple other PLs, identifying language-specific neurons is not feasible. These PLs also tend to have a larger keyword set than other PLs and are closer to the model's concept space regardless of the input/output PL in the translation task. Our findings provide insights into how LLMs internally represent PLs, revealing structural patterns in the model's concept space. Code is available at https://github.com/cisnlp/code-specific-neurons.},
+  code         = {https://github.com/cisnlp/code-specific-neurons}
+}
+
+
+
+@inproceedings{kargaran-2025-mexa,
   title        = {MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment},
   author       = {Kargaran, Amir Hossein and Modarressi, Ali and Nikeghbal, Nafiseh and Diesner, Jana and Yvon, François and Sch{\"u}tze, Hinrich},
-  year         = 2024,
-  publisher    = {arXiv preprint},
-  abbr         = {arXiv 2024},
+  year         = 2025,
+	booktitle    = {Findings of the Association for Computational Linguistics},
+	publisher    = {Association for Computational Linguistics},
+  abbr         = {ACL 2025},
   selected     = true,
   arxiv        = {2410.05873},
   abstract     = {English-centric large language models (LLMs) often show strong multilingual capabilities. However, the multilingual performance of these models remains unclear and is not thoroughly evaluated for many languages. Most benchmarks for multilinguality focus on classic NLP tasks, or cover a minimal number of languages. We introduce MEXA, a method for assessing the multilingual capabilities of pre-trained English-centric LLMs using parallel sentences, which are available for more languages than existing downstream tasks. MEXA leverages the fact that English-centric LLMs use English as a kind of pivot language in their intermediate layers. It computes the alignment between English and non-English languages using parallel sentences to evaluate the transfer of language understanding from English to other languages. This alignment can be used to estimate model performance in other languages. We conduct studies using various parallel datasets (FLORES-200 and Bible), models (Llama family, Gemma family, Mistral, and OLMo), and established downstream tasks (Belebele, m-MMLU, and m-ARC). We explore different methods to compute embeddings in decoder-only models. Our results show that MEXA, in its default settings, achieves a statistically significant average Pearson correlation of 0.90 with three established downstream tasks across nine models and two parallel datasets. This suggests that MEXA is a reliable method for estimating the multilingual capabilities of English-centric LLMs, providing a clearer understanding of their multilingual potential and the inner workings of LLMs. Leaderboard: https://huggingface.co/spaces/cis-lmu/Mexa, Code: https://github.com/cisnlp/Mexa.},
   code         = {https://github.com/cisnlp/Mexa},
   demo         = {https://huggingface.co/spaces/cis-lmu/Mexa},
-  }
+}
 
 
 
@@ -26,7 +95,7 @@
   abstract     = {The need for large text corpora has increased with the advent of pretrained language models and, in particular, the discovery of scaling laws for these models. Most available corpora have sufficient data only for languages with large dominant communities. However, there is no corpus available that (i) covers a wide range of minority languages; (ii) is generated by an open-source reproducible pipeline; and (iii) is rigorously cleaned from noise, making it trustworthy to use. We present GlotCC, a clean, document-level, 2TB general domain corpus derived from CommonCrawl, covering more than 1000 languages. We make GlotCC and the system used to generate it— including the pipeline, language identification model, and filters—available to the research community. Corpus v. 1.0 https://huggingface.co/datasets/cis-lmu/GlotCC-v1, Pipeline v. 3.0 https://github.com/cisnlp/GlotCC.},
 }
 
-@inproceedings{kargaran-etal-2024-masklid,
+@inproceedings{kargaran-2024-masklid,
 	title        = {MaskLID: Code-Switching Language Identification through Iterative Masking},
 	author       = {Kargaran, Amir Hossein and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
 	year         = 2024,
@@ -35,7 +104,7 @@
 	address      = {Bangkok, Thailand},
   abbr         = {ACL 2024},
   abstract     = {We present MaskLID, a simple, yet effective, code-switching (CS) language identification (LID) method. MaskLID does not require any training and is designed to complement current high-performance sentence-level LIDs. Sentence-level LIDs are classifiers trained on monolingual texts to provide single labels, typically using a softmax layer to turn scores into probabilities. However, in cases where a sentence is composed in both L1 and L2 languages, the LID classifier often only returns the dominant label L1. To address this limitation, MaskLID employs a strategy to mask text features associated with L1, allowing the LID to classify the text as L2 in the next round. This method uses the LID itself to identify the features that require masking and does not rely on any external resource. In this work, we explore the use of MaskLID for two open-source LIDs (GlotLID and OpenLID), that are both based on the FastText architecture. Code and demo are available at https://github.com/cisnlp/MaskLID},
-  selected     = true,
+  selected     = false,
   arxiv        = {2406.06263},
   pdf          = {paper-masklid-acl-2024.pdf},
   code         = {https://github.com/cisnlp/MaskLID},
@@ -123,7 +192,7 @@
   title        = {MenuCraft: Interactive Menu System Design with Large Language Models},
   author       = {Kargaran, Amir Hossein and Nikeghbal, Nafiseh and Heydarnoori, Abbas and Sch{\"u}tze, Hinrich},
   year         = 2023,
-  journal      = {arXiv preprint arXiv:2303.04496},
+  journal      = {arXiv preprint},
   abbr         = {arXiv 2023},
   arxiv        = {2303.04496},
   demo      = {https://kargaranamir.github.io/MenuCraft},
