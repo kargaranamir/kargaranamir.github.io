@@ -14,4 +14,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 abs_social: false  # includes abstract social icons at the bottom of the page
 ---
 
-I'm a <b>Computer Science Ph.D. student</b> at [<b>Munich University</b>](https://cis.lmu.de), advised by Prof. [<b>Hinrich Schütze</b>](https://scholar.google.com/citations?user=qIL9dWUAAAAJ), and a junior member of the [<b>Munich Center for Machine Learning</b>](https://mcml.ai). During my PhD, I had the opportunity to intern at [<b>Hugging Face</b>](https://huggingface.co), [<b>Microsoft</b>](https://www.microsoft.com), and [<b>SAP</b>](https://www.sap.com).
+
+I am a <b>Ph.D. student in Computer Science</b> at [<b>Ludwig Maximilian University of Munich</b>](https://cis.lmu.de), advised by Prof. [<b>Hinrich Schütze</b>](https://scholar.google.com/citations?user=qIL9dWUAAAAJ). I work on <b>natural language processing</b>, with a focus on multilingual settings.
+
+I have interned at [<b>Hugging Face</b>](https://huggingface.co), [<b>Microsoft</b>](https://www.microsoft.com), and [<b>SAP</b>](https://www.sap.com), where I worked on machine learning and language technologies.
+
+Before my Ph.D., I earned dual B.Sc. degrees in Electrical and Computer Engineering from Isfahan University of Technology and an M.Sc. in Computer Engineering from Sharif University of Technology.
