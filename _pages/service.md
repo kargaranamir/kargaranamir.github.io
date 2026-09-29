@@ -14,6 +14,7 @@ nav_order: 4
 - **IJCNLP-AACL**: reviewer, 2025 ([front matter](https://aclanthology.org/2025.ijcnlp-long.0.pdf))
 - **COLING**: reviewer, 2025 ([front matter](https://aclanthology.org/2025.coling-main.0.pdf))
 - **ICLR**: reviewer, 2025 and 2026 ([2025 program committee](https://iclr.cc/Conferences/2025/ProgramCommittee), [2026 program committee](https://iclr.cc/Conferences/2026/ProgramCommittee))
+- **TeachingNLP @ ACL 2024**: reviewer ([proceedings front matter](https://aclanthology.org/2024.teachingnlp-1.0.pdf))
 - **SilkRoadNLP @ EACL 2026**: program committee member ([workshop](https://www.silkroadnlp.org), [proceedings front matter](https://aclanthology.org/2026.silkroadnlp-1.0.pdf))
 
 ## Organizing
