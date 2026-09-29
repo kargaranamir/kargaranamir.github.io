@@ -1,17 +1,26 @@
 <style>
-  /* Hugging Face icon drawn as an icon glyph (CSS mask), so it sizes, aligns and
-     recolors like the Font Awesome icons in the navbar and on the /social/ page. */
-  i.hf-glyph {
+  /* Brand icons that Font Awesome/Academicons lack (Hugging Face, MyAnimeList), drawn as
+     icon glyphs with a CSS mask so they size, align and recolor like the other icons
+     in the navbar and on the /social/ page. SVGs from simple-icons. */
+  i.hf-glyph,
+  i.mal-glyph {
     display: inline-block;
     width: 1.1em;
     height: 1em;
     vertical-align: -0.125em;
     background-color: var(--global-text-color);
-    -webkit-mask: url("{{ '/assets/img/huggingface.svg' | relative_url }}") center / contain no-repeat;
-    mask: url("{{ '/assets/img/huggingface.svg' | relative_url }}") center / contain no-repeat;
     transition: background-color 0.2s ease-in-out;
   }
-  a:hover i.hf-glyph {
+  i.hf-glyph {
+    -webkit-mask: url("{{ '/assets/img/huggingface.svg' | relative_url }}") center / contain no-repeat;
+    mask: url("{{ '/assets/img/huggingface.svg' | relative_url }}") center / contain no-repeat;
+  }
+  i.mal-glyph {
+    -webkit-mask: url("{{ '/assets/img/myanimelist.svg' | relative_url }}") center / contain no-repeat;
+    mask: url("{{ '/assets/img/myanimelist.svg' | relative_url }}") center / contain no-repeat;
+  }
+  a:hover i.hf-glyph,
+  a:hover i.mal-glyph {
     background-color: var(--global-theme-color);
   }
 </style>

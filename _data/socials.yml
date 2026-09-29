@@ -19,7 +19,7 @@ semanticscholar_id: 98623604 # your Semantic Scholar ID
 stackoverflow_id: 16478538 # your stackoverflow id
 kaggle_id: kargaranamir # your kaggle id
 myanimelist: # custom social (not built into jekyll-socials)
-  logo: fa-solid fa-dragon
+  logo: mal-glyph # icon glyph defined in _includes/header.liquid
   title: MyAnimeList
   url: https://myanimelist.net/animelist/kargaranamir
 lastfm_id: kargaranamir # your Last.fm id
