@@ -8,7 +8,7 @@ nav_order: 3
 
 glot:
   - name: GlotLID
-    logo: glotlid.svg
+    logo: glotlid-mark.svg
     tagline: Language identification for 2,000+ labels
     about: An open-source fastText language identifier covering more than 2,000 labels, built for noisy web text and low-resource languages.
     paper: https://aclanthology.org/2023.findings-emnlp.410/
@@ -18,14 +18,14 @@ glot:
       - { label: Demo, url: "https://huggingface.co/spaces/cis-lmu/glotlid-space" }
       - { label: Model, url: "https://huggingface.co/cis-lmu/glotlid" }
   - name: GlotScript
-    logo: glotscript.svg
+    logo: glotscript-mark.svg
     tagline: Writing system identification
     about: A resource and tool for identifying writing systems (ISO 15924) for thousands of languages, and for checking which scripts a text is written in.
     paper: https://aclanthology.org/2024.lrec-main.687/
     venue: LREC-COLING 2024
     repo: cisnlp/GlotScript
   - name: GlotCC
-    logo: glotcc.svg
+    logo: glotcc-mark.svg
     tagline: Open CommonCrawl corpus for 1,000+ languages
     about: A clean, document-level corpus built from CommonCrawl for more than 1,000 languages, together with the open pipeline that produced it.
     paper: https://arxiv.org/abs/2410.23825
@@ -34,7 +34,7 @@ glot:
     links:
       - { label: Data, url: "https://huggingface.co/datasets/cis-lmu/GlotCC-V1" }
   - name: GlotWeb
-    logo: glotweb.svg
+    logo: glotweb-mark.svg
     tagline: Web indexing for 400+ minority languages
     about: A web index of verified pages in 400+ languages, many of them missing from major multilingual datasets, with an interactive search demo.
     paper: https://dl.acm.org/doi/10.1145/3774904.3792887
@@ -43,7 +43,7 @@ glot:
     links:
       - { label: Demo, url: "https://huggingface.co/spaces/cis-lmu/GlotWeb" }
   - name: GlotOCR Bench
-    logo: glotocr-bench.svg
+    logo: glotocr-bench-mark.svg
     tagline: OCR benchmark across 100+ Unicode scripts
     about: A benchmark showing that current OCR models, including frontier models, still struggle beyond a handful of Unicode scripts.
     paper: https://arxiv.org/abs/2604.12978
@@ -52,14 +52,14 @@ glot:
     links:
       - { label: Data, url: "https://huggingface.co/datasets/cis-lmu/GlotOCR-bench" }
   - name: GlotStoryBook
-    logo: glotstorybook.svg
+    logo: glotstorybook-mark.svg
     tagline: Children's storybooks in 180 languages
     about: A parallel collection of children's storybooks in 180 languages, useful for evaluation and for training in truly low-resource settings.
     repo: cisnlp/GlotStoryBook
     links:
       - { label: Data, url: "https://huggingface.co/datasets/cis-lmu/GlotStoryBook" }
   - name: GlotSparse
-    logo: glotsparse.svg
+    logo: glotsparse-mark.svg
     tagline: News corpora for under-resourced languages
     about: Collected news text for languages with very little data available online.
     links:
@@ -68,7 +68,7 @@ glot:
 
 <style>
   .glot-hero { text-align: center; margin: 0.5rem 0 1.5rem; }
-  .glot-hero img { width: min(300px, 70%); height: auto; }
+  .glot-hero img { width: min(230px, 60%); height: auto; }
   .glot-hero p { max-width: 36rem; margin: 0.75rem auto 0; color: var(--global-text-color-light); }
   .glot-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.25rem; margin: 1rem 0 2rem; }
   .glot-card {
@@ -77,7 +77,7 @@ glot:
   }
   .glot-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08); }
   .glot-card .glot-logo { background: #fff; border-radius: 10px; padding: 0.6rem; text-align: center; }
-  .glot-card .glot-logo img { width: 100%; max-width: 200px; height: 150px; object-fit: contain; }
+  .glot-card .glot-logo img { width: 100%; max-width: 160px; height: 120px; object-fit: contain; }
   .glot-card h3 { font-size: 1.1rem; margin: 0.8rem 0 0.15rem; font-weight: 600; }
   .glot-card .glot-tag { font-size: 0.85rem; color: var(--global-theme-color); margin-bottom: 0.4rem; }
   .glot-card .glot-about { font-size: 0.88rem; flex-grow: 1; margin-bottom: 0.7rem; }
