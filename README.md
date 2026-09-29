@@ -13,7 +13,7 @@ The website is powered by Jekyll with the [al-folio](https://github.com/alshediv
   - About page: `_pages/about.md`. Profile photo: `assets/img/prof_pic.jpg`.
   - News: `_news/`. Blog posts: `_posts/` (post URLs are `/:year/:title/`).
   - Publications: `_bibliography/papers.bib`. PDFs, slides and posters: `assets/pdf/`.
-  - Other pages: `_pages/glotsuite.md` (GlotSuite tab), `_pages/social.md` (hobbies + all profiles).
+  - Other pages: `_pages/glotsuite.md` (GlotSuite tab), `_pages/service.md` (reviewing, organizing, supervision), `_pages/social.md` (hobbies + all profiles).
   - Social links: `_data/socials.yml`. Co-author links: `_data/coauthors.yml`.
   - Projects, teaching and books pages exist but are hidden from the menu until they have content.
 - **Publication logos:** each bib entry has `preview = {<name>.png}` from `assets/img/publication_preview/`. The editable source is `publication-logos.excalidraw` in the same folder. The Glot marks come from the `glotlid-slides` repo (`logo/`).
