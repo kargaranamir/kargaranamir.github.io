@@ -9,7 +9,7 @@ github_username: kargaranamir # your GitHub user name
 linkedin_username: amirkargaran # your LinkedIn user name
 x_username: amir_nlp # your X (formerly Twitter) handle
 huggingface: # custom social (not built into jekyll-socials)
-  logo: /assets/img/huggingface.svg
+  logo: hf-glyph # icon glyph defined in _includes/header.liquid
   title: Hugging Face
   url: https://huggingface.co/kargaranamir
 gitlab_username: kargaranamir # your GitLab user name
