@@ -24,4 +24,4 @@ nav_order: 4
 
 ## Supervision
 
-- **LMU Munich**, 2026: supervising students' theses and projects at the [Center for Information and Language Processing (CIS)](https://cis.lmu.de)
+- **LMU Munich**, 2022–2025: supervising students' theses and projects at the [Center for Information and Language Processing (CIS)](https://cis.lmu.de)
