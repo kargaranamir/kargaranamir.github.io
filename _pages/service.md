@@ -10,7 +10,7 @@ nav_order: 4
 ## Reviewing
 
 - **ACL**: reviewer, 2024 and 2025 ([2024 front matter](https://aclanthology.org/2024.acl-short.0.pdf), [2025 front matter](https://aclanthology.org/2025.acl-short.0.pdf))
-- **EMNLP**: reviewer, 2025 ([front matter](https://aclanthology.org/2025.emnlp-main.0.pdf))
+- **EMNLP**: reviewer, 2024 and 2025 ([2024 front matter](https://aclanthology.org/2024.emnlp-main.0.pdf), [2025 front matter](https://aclanthology.org/2025.emnlp-main.0.pdf))
 - **IJCNLP-AACL**: reviewer, 2025 ([front matter](https://aclanthology.org/2025.ijcnlp-long.0.pdf))
 - **COLING**: reviewer, 2025 ([front matter](https://aclanthology.org/2025.coling-main.0.pdf))
 - **ICLR**: reviewer, 2025 and 2026 ([2025 program committee](https://iclr.cc/Conferences/2025/ProgramCommittee), [2026 program committee](https://iclr.cc/Conferences/2026/ProgramCommittee))
