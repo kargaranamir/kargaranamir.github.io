@@ -17,6 +17,16 @@ glot:
     links:
       - { label: Demo, url: "https://huggingface.co/spaces/cis-lmu/glotlid-space" }
       - { label: Model, url: "https://huggingface.co/cis-lmu/glotlid" }
+  - name: Glot500
+    logo: glot500-mark.svg
+    tagline: A language model and corpus for 500+ languages
+    about: Glot500-c, a corpus for 511 mostly low-resource languages, and Glot500-m, a multilingual language model trained on it that improves strongly over XLM-R.
+    paper: https://aclanthology.org/2023.acl-long.61/
+    venue: ACL 2023
+    repo: cisnlp/Glot500
+    links:
+      - { label: Model, url: "https://huggingface.co/cis-lmu/glot500-base" }
+      - { label: Data, url: "https://huggingface.co/datasets/cis-lmu/Glot500" }
   - name: GlotScript
     logo: glotscript-mark.svg
     tagline: Writing system identification
@@ -114,4 +124,4 @@ glot:
 {% endfor %}
 </div>
 
-Related work built on or around the suite: [Glot500](https://aclanthology.org/2023.acl-long.61/) (a language model for 500+ languages), [MaskLID](https://aclanthology.org/2024.acl-short.43/) (code-switching language identification with GlotLID) and [FineWeb2](https://arxiv.org/abs/2506.20920) (which uses GlotLID for language identification). All publications are on the [publications]({{ '/publications/' | relative_url }}) page.
+Related work built on or around the suite: [MaskLID](https://aclanthology.org/2024.acl-short.43/) (code-switching language identification with GlotLID) and [FineWeb2](https://arxiv.org/abs/2506.20920) (which uses GlotLID for language identification). All publications are on the [publications]({{ '/publications/' | relative_url }}) page.
