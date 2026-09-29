@@ -10,6 +10,7 @@ nav_order: 4
 ## Reviewing
 
 - **ICLR**: reviewer, 2025 and 2026 ([2025 program committee](https://iclr.cc/Conferences/2025/ProgramCommittee), [2026 program committee](https://iclr.cc/Conferences/2026/ProgramCommittee))
+- **COLING 2025**: reviewer ([proceedings front matter](https://aclanthology.org/2025.coling-main.0.pdf))
 - **SilkRoadNLP @ EACL 2026**: program committee member ([workshop](https://www.silkroadnlp.org), [OpenReview](https://openreview.net/group?id=eacl.org/EACL/2026/Workshop/SilkRoadNLP))
 
 ## Organizing
