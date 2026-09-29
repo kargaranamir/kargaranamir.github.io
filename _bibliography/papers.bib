@@ -9,33 +9,36 @@
   annotation = {Large community benchmark with 240+ co-authors, including Amir Hossein Kargaran.},
   arxiv = {2609.04173},
   code = {https://github.com/zouharvi/last-translation-benchmark},
-  demo = {https://huggingface.co/datasets/zouhar/last-translation-benchmark}
+  demo = {https://huggingface.co/datasets/zouhar/last-translation-benchmark},
+  abstract = {For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. Standard benchmarks for machine translation evaluation are often either trivial (having few authentic mistakes) or unrealistic (overly synthetically contrived). Furthermore, automatic translation metrics become less reliable and reward-hacked as models get stronger, and their outputs are not actionable. Even gold human evaluation is not problem-free: it often lacks reproducibility, objectivity, and scalability. Overall, this prevents us from tracking objective progress in the field and from informing where we should focus next. We introduce the Last Translation Benchmark, which contains human-authored and peer-reviewed examples (texts, images, audio, videos) which break state-of-the-art machine translation models across many language pairs. Each example has additionally handcrafted verification rules, which provide instructions on how to reliably and objectively evaluate any future translations of the example. The Last Translation Benchmark is a live dataset that accepts contributions. The latest version is LTBv1, containing accepted contributions prior to September 1st 2026, with future releases planned with subsequent contributions.}
 }
 
-@misc{nikeghbal-2026-whoflips,
+@inproceedings{nikeghbal-2026-whoflips,
   title = {Who Flips? Self- and Cross-Model Counterarguments Reveal Answer Instability in {LLM}s},
   author = {Nikeghbal, Nafiseh and Kargaran, Amir Hossein and Kolli, Shaghayegh and Diesner, Jana},
-  journal = {arXiv preprint arXiv:2606.16011},
+  booktitle = {ICML 2026 Workshops: Agents in the Wild (AIWILD); Trustworthy AI for Good (AI4GOOD)},
   year = {2026},
-  abbr = {arXiv 2026},
+  abbr = {ICML-W 2026},
   preview = {whoflips.png},
   bibtex_show = {true},
   arxiv = {2606.16011},
-  code = {https://github.com/nafisenik/WhoFlips}
+  code = {https://github.com/nafisenik/WhoFlips},
+  abstract = {Standard accuracy benchmarks evaluate whether large language models (LLMs) reach correct answers. However, they do not test whether models maintain that answer when challenged by a plausible counter-argument. We introduce a controlled protocol for evaluating answer stability: after a model answers a multiple-choice question correctly, we challenge the model's answer with a coherent argument for an incorrect option and measure whether the model flips. The setup a) isolates argumentative content from overt social pressure and b) varies argument length, self-attribution, and cross-model source. Across seven frontier models and 57 MMLU subjects, flip rates range from 17.5\% to 97.3\%, revealing large differences in stability that are not captured by accuracy metrics alone. We find that self-attribution consistently increases flip rates (mean 7.1pp, up to 18.7pp). Furthermore, pooling wrong-answer arguments across models and selecting the most effective one per question yields stronger adversarial challenges than relying on any single source model. From this cross-model pool, we construct MaxFlip, a curated benchmark that amplifies answer flips by up to 23.6pp over self-generated challenges. We release the protocol, challenge records, and MaxFlip to support stability evaluation alongside standard accuracy benchmarks.}
 }
 
-@misc{kargaran-2026-glotocr,
+@inproceedings{kargaran-2026-glotocr,
   title = {{GlotOCR} Bench: {OCR} Models Still Struggle Beyond a Handful of {U}nicode Scripts},
   author = {Kargaran, Amir Hossein and Nikeghbal, Nafiseh and Diesner, Jana and Yvon, Fran{\c{c}}ois and Sch{\"u}tze, Hinrich},
-  journal = {arXiv preprint arXiv:2604.12978},
+  booktitle = {ICML 2026 Workshops: Culture x AI: Evaluating AI as a Cultural Technology; GlobalSouthML (Affinity Event)},
   year = {2026},
-  abbr = {arXiv 2026},
+  abbr = {ICML-W 2026},
   preview = {glotocr-bench.png},
   bibtex_show = {true},
   selected = {true},
   arxiv = {2604.12978},
   code = {https://github.com/cisnlp/glotocr-bench},
-  demo = {https://huggingface.co/datasets/cis-lmu/GlotOCR-bench}
+  demo = {https://huggingface.co/datasets/cis-lmu/GlotOCR-bench},
+  abstract = {Optical character recognition (OCR) has advanced rapidly with the rise of vision-language models, yet evaluation has remained concentrated on a small cluster of high- and mid-resource scripts. We introduce GlotOCR Bench, a comprehensive benchmark evaluating OCR generalization across 100+ Unicode scripts. Our benchmark comprises clean and degraded image variants rendered from real multilingual texts. Images are rendered using fonts from the Google Fonts repository, shaped with HarfBuzz and rasterized with FreeType, supporting both LTR and RTL scripts. Samples of rendered images were manually reviewed to verify correct rendering across all scripts. We evaluate a broad suite of open-weight and proprietary vision-language models and find that most perform well on fewer than ten scripts, and even the strongest frontier models fail to generalize beyond thirty scripts. Performance broadly tracks script-level pretraining coverage, suggesting that current OCR systems rely on language model pretraining as much as on visual recognition. Models confronted with unfamiliar scripts either produce random noise or hallucinate characters from similar scripts they already know. We release the benchmark and pipeline for reproducibility.}
 }
 
 @inproceedings{sefat-2026-glotweb,
@@ -63,7 +66,8 @@
   preview = {iclr_review.png},
   bibtex_show = {true},
   arxiv = {2511.15462},
-  code = {https://github.com/papercopilot/iclr-insights}
+  code = {https://github.com/papercopilot/iclr-insights},
+  abstract = {Peer review is a cornerstone of scientific publishing, including at premier machine learning conferences such as ICLR. As submission volumes increase, understanding the nature and dynamics of the review process is crucial for improving its efficiency, effectiveness, and the quality of published papers. We present a large-scale analysis of the ICLR 2024 and 2025 peer review processes, focusing on before- and after-rebuttal scores and reviewer-author interactions. We examine review scores, author-reviewer engagement, temporal patterns in review submissions, and co-reviewer influence effects. Combining quantitative analyses with LLM-based categorization of review texts and rebuttal discussions, we identify common strengths and weaknesses for each rating group, as well as trends in rebuttal strategies that are most strongly associated with score changes. Our findings show that initial scores and the ratings of co-reviewers are the strongest predictors of score changes during the rebuttal, pointing to a degree of reviewer influence. Rebuttals play a valuable role in improving outcomes for borderline papers, where thoughtful author responses can meaningfully shift reviewer perspectives. More broadly, our study offers evidence-based insights to improve the peer review process, guiding authors on effective rebuttal strategies and helping the community design fairer and more efficient review processes.}
 }
 
 @inproceedings{nikeghbal-2025-cobia,

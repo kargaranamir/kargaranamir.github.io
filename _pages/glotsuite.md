@@ -47,7 +47,7 @@ glot:
     tagline: OCR benchmark across 100+ Unicode scripts
     about: A benchmark showing that current OCR models, including frontier models, still struggle beyond a handful of Unicode scripts.
     paper: https://arxiv.org/abs/2604.12978
-    venue: arXiv 2026
+    venue: ICML 2026 Workshop
     repo: cisnlp/glotocr-bench
     links:
       - { label: Data, url: "https://huggingface.co/datasets/cis-lmu/GlotOCR-bench" }
