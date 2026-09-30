@@ -23,6 +23,7 @@ The website is powered by Jekyll with the [al-folio](https://github.com/alshediv
   - `_includes/header.liquid`: the navbar shows only email, Scholar, GitHub, LinkedIn, X and Hugging Face.
   - `_sass/_themes.scss`: green theme color `#025c00` in light mode (cyan in dark mode).
   - `_includes/news.liquid`: adds the "see all the news here" line under the news on the about page.
+  - `_layouts/about.liquid`: plain "news" / "latest posts" headings and a "see all the posts here" line.
 - **Removed on purpose:** the CV feature (the `al_folio_cv` gem, the cv page and rendercv) and the repositories page. Don't add them back.
 - **CI:** `deploy.yml` builds and publishes the site; the other workflows are link checks, CodeQL, the al-folio upgrade audit, weekly citation updates and a manual run-cleanup. The upstream template's own test, visual-regression, Prettier, Lighthouse, star-history, screenshot, release and CV workflows were removed on purpose.
 
