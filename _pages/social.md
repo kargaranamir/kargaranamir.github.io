@@ -12,7 +12,7 @@ I like swimming, hiking, and spending time in nature. I read poetry often, and I
 
 ## How I see things
 
-I tend to see life as a story that is still unfolding. I don’t try to force things into perfect shapes, but I notice when something feels slightly off. I also find resonance with Taoism and its sense of balance and flow in life.
+Whenever something can be described with math, I get excited. But the further I go, the more I see that life is too complex to be captured by any model. That is why I tend to see life as a story that is still unfolding: I don’t try to force things into perfect shapes, but I notice when something feels slightly off. I also find resonance with Taoism and its sense of balance and flow in life.
 
 ## Favorites
 
