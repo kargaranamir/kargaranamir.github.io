@@ -29,10 +29,8 @@ I am a <b>Ph.D. student in Computer Science</b> at [<b>Ludwig Maximilian Univers
 My research interests:
 
 - Multilingual and low-resource NLP
-- Web data
+- Web
 - Translation
 - Interpretability and evaluation of LLMs
 
 I have interned at [<b>Hugging Face</b>](https://huggingface.co), [<b>Microsoft</b>](https://www.microsoft.com), and [<b>SAP</b>](https://www.sap.com), where I worked on machine learning and language technologies.
-
-Outside my research, I lead [SIGIranic](https://github.com/sigiranic), an open-source community for Iranian languages. My favorite areas of math are graph theory and cryptography.
