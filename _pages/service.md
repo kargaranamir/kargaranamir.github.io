@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-## Reviewing
+### Reviewing
 
 - **ACL**: reviewer, 2024 and 2025 ([2024 front matter](https://aclanthology.org/2024.acl-short.0.pdf), [2025 front matter](https://aclanthology.org/2025.acl-short.0.pdf))
 - **EMNLP**: reviewer, 2024 and 2025 ([2024 front matter](https://aclanthology.org/2024.emnlp-main.0.pdf), [2025 front matter](https://aclanthology.org/2025.emnlp-main.0.pdf))
@@ -18,11 +18,11 @@ nav_order: 4
 - **ACL 2026 Student Research Workshop**: program committee member ([proceedings front matter](https://aclanthology.org/2026.acl-srw.0.pdf))
 - **SilkRoadNLP @ EACL 2026**: program committee member ([workshop](https://www.silkroadnlp.org), [proceedings front matter](https://aclanthology.org/2026.silkroadnlp-1.0.pdf))
 
-## Organizing
+### Organizing
 
 - **MELT @ COLM 2025**: co-organizer of the workshop ([website](https://melt-workshop.github.io/), [OpenReview](https://openreview.net/group?id=colmweb.org/COLM/2025/Workshop/MELT))
 - **SIGIranic**: I lead an open-source community for Iranian languages ([GitHub](https://github.com/sigiranic))
 
-## Supervision
+### Supervision
 
 - **LMU Munich**, 2022–2025: supervising students' theses and projects at the [Center for Information and Language Processing (CIS)](https://cis.lmu.de)
