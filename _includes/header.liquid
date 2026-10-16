@@ -23,6 +23,14 @@
   a:hover i.mal-glyph {
     background-color: var(--global-theme-color);
   }
+  /* Publications on phones: keep each paper's logo a modest, centered thumbnail
+     instead of stretching it to the full screen width. */
+  @media (max-width: 575.98px) {
+    .publications .abbr {
+      max-width: 160px;
+      margin: 0 auto 0.75rem;
+    }
+  }
 </style>
 <header>
   <!-- Nav Bar -->
